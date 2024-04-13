@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/JIT-website/static/css/main.d741d36c.css",
-    "main.js": "/JIT-website/static/js/main.a9cdab77.js",
+    "main.js": "/JIT-website/static/js/main.64cd16a8.js",
     "static/js/453.44191518.chunk.js": "/JIT-website/static/js/453.44191518.chunk.js",
     "static/media/jit-website-layout-frames-1.svg": "/JIT-website/static/media/jit-website-layout-frames-1.bb720d986aefc7d46dffe734cb6e69f6.svg",
     "index.html": "/JIT-website/index.html",
     "main.d741d36c.css.map": "/JIT-website/static/css/main.d741d36c.css.map",
-    "main.a9cdab77.js.map": "/JIT-website/static/js/main.a9cdab77.js.map",
+    "main.64cd16a8.js.map": "/JIT-website/static/js/main.64cd16a8.js.map",
     "453.44191518.chunk.js.map": "/JIT-website/static/js/453.44191518.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d741d36c.css",
-    "static/js/main.a9cdab77.js"
+    "static/js/main.64cd16a8.js"
   ]
 }
