@@ -1,46 +1,43 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-}
-
-.nav-container a {
-    text-decoration: none;
-    color: black;
-    margin-right: 1rem;
-}
-
-.nav-background {
-    position: absolute;
-} */
-
-.site__header {
+/* .site__header {
     top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
 
 .nav_ac {
     padding: 5px 15px;
     margin: 0;
     border: unset;
     /* background: var(--primary-color); */
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 28;
+    font-style: normal;
     font-size: 1.25rem;
-    font-family: Marcellus;
-    color: var(--text-color-2);
+    color: var(--text-color);
     line-height: 2;
     height: 50px;
-    font-weight: bold;
-    z-index: 1000;
+    z-index: 1;
+    text-decoration: none;
 }
 
 .nav_ac:hover {
-    color: var(--text-color-2);
+    color: var(--text-color-3);
+    cursor: pointer;
 }
+
+.active {
+    color: red !important;
+}
+
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 900 
+*/
+
+/* .rubik-text {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */

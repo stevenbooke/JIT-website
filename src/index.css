@@ -30,7 +30,7 @@ body {
   overflow-y: visible;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 60px;
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Marcellus;
+  font-family: 'Rubik';
 }
 
 a,
@@ -94,3 +94,16 @@ code {
 .color_sec {
   color: var(--secondary-color);
 }
+
+
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 900 
+*/
+
+/* .rubik-text {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
