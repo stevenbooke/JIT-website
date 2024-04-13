@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JIT-website/static/css/main.d741d36c.css",
-    "main.js": "/JIT-website/static/js/main.64cd16a8.js",
+    "main.css": "/JIT-website/static/css/main.12a494bc.css",
+    "main.js": "/JIT-website/static/js/main.56460fb2.js",
     "static/js/453.44191518.chunk.js": "/JIT-website/static/js/453.44191518.chunk.js",
     "static/media/jit-website-layout-frames-1.svg": "/JIT-website/static/media/jit-website-layout-frames-1.bb720d986aefc7d46dffe734cb6e69f6.svg",
     "index.html": "/JIT-website/index.html",
-    "main.d741d36c.css.map": "/JIT-website/static/css/main.d741d36c.css.map",
-    "main.64cd16a8.js.map": "/JIT-website/static/js/main.64cd16a8.js.map",
+    "main.12a494bc.css.map": "/JIT-website/static/css/main.12a494bc.css.map",
+    "main.56460fb2.js.map": "/JIT-website/static/js/main.56460fb2.js.map",
     "453.44191518.chunk.js.map": "/JIT-website/static/js/453.44191518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d741d36c.css",
-    "static/js/main.64cd16a8.js"
+    "static/css/main.12a494bc.css",
+    "static/js/main.56460fb2.js"
   ]
 }
