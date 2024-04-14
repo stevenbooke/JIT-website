@@ -27,7 +27,7 @@
 }
 
 .active {
-    color: red !important;
+    color: var(--text-color-3);
 }
 
 /* 
