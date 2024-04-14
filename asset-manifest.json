@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JIT-website/static/css/main.12a494bc.css",
-    "main.js": "/JIT-website/static/js/main.cd2a6abb.js",
+    "main.css": "/JIT-website/static/css/main.e1ee17cf.css",
+    "main.js": "/JIT-website/static/js/main.2c96d025.js",
     "static/js/453.44191518.chunk.js": "/JIT-website/static/js/453.44191518.chunk.js",
     "static/media/jit-website-layout-frames-1.svg": "/JIT-website/static/media/jit-website-layout-frames-1.fd975fa546640b08f4a6f3a56501d55b.svg",
     "index.html": "/JIT-website/index.html",
-    "main.12a494bc.css.map": "/JIT-website/static/css/main.12a494bc.css.map",
-    "main.cd2a6abb.js.map": "/JIT-website/static/js/main.cd2a6abb.js.map",
+    "main.e1ee17cf.css.map": "/JIT-website/static/css/main.e1ee17cf.css.map",
+    "main.2c96d025.js.map": "/JIT-website/static/js/main.2c96d025.js.map",
     "453.44191518.chunk.js.map": "/JIT-website/static/js/453.44191518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12a494bc.css",
-    "static/js/main.cd2a6abb.js"
+    "static/css/main.e1ee17cf.css",
+    "static/js/main.2c96d025.js"
   ]
 }
