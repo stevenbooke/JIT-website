@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/JIT-website/static/css/main.e1ee17cf.css",
-    "main.js": "/JIT-website/static/js/main.2c96d025.js",
+    "main.css": "/JIT-website/static/css/main.e13b8496.css",
+    "main.js": "/JIT-website/static/js/main.9f47f078.js",
     "static/js/453.44191518.chunk.js": "/JIT-website/static/js/453.44191518.chunk.js",
+    "static/media/jit-website-layout-frames-4.svg": "/JIT-website/static/media/jit-website-layout-frames-4.623009b77eac9b8e69a3c8b039790ea4.svg",
+    "static/media/jit-website-layout-frames-5-wide.svg": "/JIT-website/static/media/jit-website-layout-frames-5-wide.937918b0b9d4d4fdce56830375fad84b.svg",
+    "static/media/jit-website-layout-frames-2.svg": "/JIT-website/static/media/jit-website-layout-frames-2.5b1f5f4a21e75145cf29029ffd8327c5.svg",
+    "static/media/jit-website-layout-frames-3.svg": "/JIT-website/static/media/jit-website-layout-frames-3.f4befdf1cbb83d4d7cb228790ef16d40.svg",
     "static/media/jit-website-layout-frames-1.svg": "/JIT-website/static/media/jit-website-layout-frames-1.fd975fa546640b08f4a6f3a56501d55b.svg",
+    "static/media/jit-logo.svg": "/JIT-website/static/media/jit-logo.f0151908463936c7bd29fd591a7b6fd7.svg",
+    "static/media/jit-website-layout-frames-6.svg": "/JIT-website/static/media/jit-website-layout-frames-6.3b3c1a09be8522e3591837cd6b35634c.svg",
     "index.html": "/JIT-website/index.html",
-    "main.e1ee17cf.css.map": "/JIT-website/static/css/main.e1ee17cf.css.map",
-    "main.2c96d025.js.map": "/JIT-website/static/js/main.2c96d025.js.map",
+    "main.e13b8496.css.map": "/JIT-website/static/css/main.e13b8496.css.map",
+    "main.9f47f078.js.map": "/JIT-website/static/js/main.9f47f078.js.map",
     "453.44191518.chunk.js.map": "/JIT-website/static/js/453.44191518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ee17cf.css",
-    "static/js/main.2c96d025.js"
+    "static/css/main.e13b8496.css",
+    "static/js/main.9f47f078.js"
   ]
 }
