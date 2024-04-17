@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JIT-website/static/css/main.e13b8496.css",
+    "main.css": "/JIT-website/static/css/main.84be1aea.css",
     "main.js": "/JIT-website/static/js/main.9f47f078.js",
     "static/js/453.44191518.chunk.js": "/JIT-website/static/js/453.44191518.chunk.js",
     "static/media/jit-website-layout-frames-4.svg": "/JIT-website/static/media/jit-website-layout-frames-4.623009b77eac9b8e69a3c8b039790ea4.svg",
@@ -11,12 +11,12 @@
     "static/media/jit-logo.svg": "/JIT-website/static/media/jit-logo.f0151908463936c7bd29fd591a7b6fd7.svg",
     "static/media/jit-website-layout-frames-6.svg": "/JIT-website/static/media/jit-website-layout-frames-6.3b3c1a09be8522e3591837cd6b35634c.svg",
     "index.html": "/JIT-website/index.html",
-    "main.e13b8496.css.map": "/JIT-website/static/css/main.e13b8496.css.map",
+    "main.84be1aea.css.map": "/JIT-website/static/css/main.84be1aea.css.map",
     "main.9f47f078.js.map": "/JIT-website/static/js/main.9f47f078.js.map",
     "453.44191518.chunk.js.map": "/JIT-website/static/js/453.44191518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e13b8496.css",
+    "static/css/main.84be1aea.css",
     "static/js/main.9f47f078.js"
   ]
 }
