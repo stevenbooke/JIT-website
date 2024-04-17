@@ -18,14 +18,14 @@ import { social_links } from "../../content-options";
 
 export const Socialicons = (params) => {
     return (
-        <div className="social_icons">
+        <div className="d-flex">
             {social_links.twitter && (
                 <a href={social_links.twitter}>
                     <FaTwitter />
                 </a>
             )}
-            {social_links.twitter && (
-                <a href={social_links.twitter}>
+            {social_links.XTwitter && (
+                <a href={social_links.XTwitterwitter}>
                     <FaXTwitter />
                 </a>
             )}

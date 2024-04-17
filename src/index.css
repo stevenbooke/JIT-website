@@ -9,13 +9,13 @@
 }
 
 html {
-  height: 100%;
+  /* height: 100%; */
   font-family: 'Rubik', sans-serif;
 }
 
 body {
   margin: 0;
-  height: 100%;
+  /* height: 100%; */
   overflow-x: hidden;
   overflow-y: visible;
   background-color: var(--bg-color);
@@ -23,23 +23,12 @@ body {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 0px;
-  border-left: 10px solid var(--primary-color);
-  border-right: 10px solid var(--primary-color);
-}
-
-a:hover {
-  color: var(--text-color-3);
-  cursor: pointer;
+  padding-top: 300px;
 }
 
 p {
   word-break: break-word;
-  hyphens: auto;
-}
-
-.ovhidden {
-  overflow: hidden;
+  hyphens: none;
 }
 
 
