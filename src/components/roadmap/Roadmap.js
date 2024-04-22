@@ -2,6 +2,8 @@ import React from 'react';
 import "./Roadmap.css";
 import frame4svg from "../../assets/svg/jit-website-layout-frames-objective-svg/jit-website-layout-frames-4.svg";
 import { Element } from 'react-scroll';
+import { roadmap } from '../../content-options';
+import bulletpoint from "../../assets/svg/jit-logos-objective-svg/bullet-point.svg";
 const Latex = require('react-latex');
 
 const FRAME_4_WIDTH = 1920;
@@ -13,19 +15,29 @@ const tokenDistributionFx = `$tokens = \\frac{total\\_tokens}{ln(1 + Y )} \\cdot
 const Roadmap = () => {
   return (
     <Element name="roadmap">
-      <div className="container-fluid g-0 ratio" style={{ backgroundSize: 'cover', backgroundImage: `url(${frame4svg})`, '--bs-aspect-ratio': `${FRAME_4_ASPECT_RATIO * 100}%` }}>
-        <div className="row row-cols-1 align-content-center text-center">
-          <div className="col">
-            <p className="m-0 fw-bold fs-1">ROADMAP HEADER</p>
-          </div>
-          <div className="col">
-            {/* <Latex>{"$f(x) = \\int_{-\\infty}^{\\infty} e^{-x^2} dx$"}</Latex> */}
-            <Latex>
-              {tokenDistributionFx}
-            </Latex>
-          </div>
-          <div className="col">
-            <p className="m-0 fw-light fs-6">ROADMAP DETAILS</p>
+      <div className="container-fluid g-0 ratio" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${frame4svg})`, minHeight: '811px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div className="roadmap-container" >
+            <p className='roadmap-header'>{roadmap.title}</p>
+            <ul style={{ listStyleType: 'none', padding: '0px' }}>
+              {roadmap.content.map((item, index) => (
+                <li key={index} style={{
+                  display: 'flex',
+                  alignItems: 'flex-start', // Ensures bullet points align with the first line of text
+                  marginBottom: '10px' // Adds space between list items
+                }}>
+                  <img src={bulletpoint} alt="Bullet Point" style={{
+                    marginTop: '5px',
+                    width: '13px', // Adjust the size of the bullet image as necessary
+                    height: '13px', // Adjust the size of the bullet image as necessary
+                    marginRight: '10px' // Space between the bullet point and the text
+                  }} />
+                  <div style={{ fontFamily: 'Rubik", sans-serif', flex: 1, textAlign: 'left' }}>
+                    {item}
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

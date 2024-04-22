@@ -2,6 +2,7 @@ import React from 'react';
 import "./Buy.css";
 import frame5widesvg from "../../assets/svg/jit-website-layout-frames-objective-svg/jit-website-layout-frames-5-wide.svg";
 import { Element } from 'react-scroll';
+import { buy } from '../../content-options';
 
 const FRAME_5_WIDTH = 1920;
 const FRAME_5_HEIGHT = 483;
@@ -10,16 +11,20 @@ const FRAME_5_ASPECT_RATIO = FRAME_5_HEIGHT / FRAME_5_WIDTH;
 const Buy = () => {
     return (
         <Element name="buy">
-            <div className="container-fluid text-center g-0 ratio" style={{ backgroundSize: 'cover', backgroundImage: `url(${frame5widesvg})`, '--bs-aspect-ratio': `${FRAME_5_ASPECT_RATIO * 100}%` }}>
-                <div className="row row-cols-1 align-content-center">
-                    <div className="col">
-                        <h1 className="fw-bold fs-1">HOW TO BUY/IN MEDIA/TESTIMONIALS</h1>
-                    </div>
-                    <div className="col">
-                        <span className="fw-bold fs-1">PLACEHOLDER: </span>
-                        <span className="fw-light fs-2">some text</span>
-                    </div>
+            <div style={{ alignItems: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${frame5widesvg})`, minHeight: '483px' }}>
+                <div className='buy-container'>
+                    <span style={{ fontSize: '2.75em', color: "#497FF5" }}>{buy.title}</span>
+                    <br></br>
+                    <span style={{ fontWeight: 'bold', fontSize: '1.5em', color: "#fff", marginBottom: '1vh' }}>{buy.h1}</span>
+                    <span>{buy.content1} </span>
+                    <br></br>
+                    <span style={{ fontWeight: 'bold', fontSize: '1.5em', color: "#fff", marginBottom: '1vh' }}>{buy.h2}</span>
+                    <span>{buy.content2} </span>
+                    <br></br>
+                    <span style={{ fontWeight: 'bold', fontSize: '1.5em', color: "#fff", marginBottom: '1vh' }}>{buy.h3}</span>
+                    <span>{buy.content3} </span>
                 </div>
+
             </div>
         </Element>
     );

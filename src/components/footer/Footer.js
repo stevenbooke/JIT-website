@@ -26,7 +26,7 @@ const scrollToTop = () => {
 
 const Footer = () => {
     return (
-        <div className="container-fluid text-center g-0 ratio" style={{ backgroundSize: 'cover', backgroundImage: `url(${frame6svg})`, '--bs-aspect-ratio': `${FRAME_6_ASPECT_RATIO * 100}%` }}>
+        <div className="container-fluid text-center g-0 ratio" style={{ backgroundSize: 'cover', backgroundImage: `url(${frame6svg})`, minHeight: '130px' }}>
             <div className="row row-cols-1 align-content-center">
                 <div className="col">
                     <a onClick={scrollToTop}>

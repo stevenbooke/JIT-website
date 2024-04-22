@@ -1,0 +1,34 @@
+.buy-background {
+    min-height: 483px;
+    background-size: auto 100%; /* Maintain original height, scale width on desktop */
+}
+
+.buy-container{
+    min-width: 425px;
+    max-width: 600px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 576px) {
+    .buy-container {
+        min-width: 425px;
+        max-width: 6000px;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        font-size: 4vw;
+        min-width: 100px;
+        max-width: 80vw;
+    }
+}
