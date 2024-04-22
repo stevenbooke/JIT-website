@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/JIT-website/static/css/main.84be1aea.css",
-    "main.js": "/JIT-website/static/js/main.9f47f078.js",
+    "main.css": "/JIT-website/static/css/main.f29de54a.css",
+    "main.js": "/JIT-website/static/js/main.fac1a5f0.js",
     "static/js/453.44191518.chunk.js": "/JIT-website/static/js/453.44191518.chunk.js",
+    "static/media/JIT-promo-vid-meme-thumbnail.mp4": "/JIT-website/static/media/JIT-promo-vid-meme-thumbnail.1b12daaae360de439195.mp4",
     "static/media/jit-website-layout-frames-4.svg": "/JIT-website/static/media/jit-website-layout-frames-4.623009b77eac9b8e69a3c8b039790ea4.svg",
     "static/media/jit-website-layout-frames-5-wide.svg": "/JIT-website/static/media/jit-website-layout-frames-5-wide.937918b0b9d4d4fdce56830375fad84b.svg",
     "static/media/jit-website-layout-frames-2.svg": "/JIT-website/static/media/jit-website-layout-frames-2.5b1f5f4a21e75145cf29029ffd8327c5.svg",
     "static/media/jit-website-layout-frames-3.svg": "/JIT-website/static/media/jit-website-layout-frames-3.f4befdf1cbb83d4d7cb228790ef16d40.svg",
-    "static/media/jit-website-layout-frames-1.svg": "/JIT-website/static/media/jit-website-layout-frames-1.fd975fa546640b08f4a6f3a56501d55b.svg",
+    "static/media/header.png": "/JIT-website/static/media/header.1b314e534417c1e05415.png",
     "static/media/jit-logo.svg": "/JIT-website/static/media/jit-logo.f0151908463936c7bd29fd591a7b6fd7.svg",
     "static/media/jit-website-layout-frames-6.svg": "/JIT-website/static/media/jit-website-layout-frames-6.3b3c1a09be8522e3591837cd6b35634c.svg",
     "index.html": "/JIT-website/index.html",
-    "main.84be1aea.css.map": "/JIT-website/static/css/main.84be1aea.css.map",
-    "main.9f47f078.js.map": "/JIT-website/static/js/main.9f47f078.js.map",
+    "static/media/bullet-point.svg": "/JIT-website/static/media/bullet-point.03d4d10b93f6f69998c0ad1c2cfc34bc.svg",
+    "main.f29de54a.css.map": "/JIT-website/static/css/main.f29de54a.css.map",
+    "main.fac1a5f0.js.map": "/JIT-website/static/js/main.fac1a5f0.js.map",
     "453.44191518.chunk.js.map": "/JIT-website/static/js/453.44191518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84be1aea.css",
-    "static/js/main.9f47f078.js"
+    "static/css/main.f29de54a.css",
+    "static/js/main.fac1a5f0.js"
   ]
 }
