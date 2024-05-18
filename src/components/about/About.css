@@ -30,8 +30,22 @@
     font-family: "Rubik", sans-serif;
     font-size: 2.75em;
     color: #EC8731;
+
 }
 
 .about-content {
     font-family: "Rubik", sans-serif;
+}
+
+.about-footer {
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #b34c16;
+}
+
+.about-footer2 {
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+    color: #b34c16;
 }

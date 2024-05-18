@@ -2,6 +2,7 @@ import React from 'react';
 import "./About.css";
 import { Element } from 'react-scroll';
 import frame3svg from "../../assets/svg/jit-website-layout-frames-objective-svg/jit-website-layout-frames-3.svg";
+import callsvg from "../../assets/images/jit/jit-slide2-thecallpicto-white.png";
 import { about, content } from '../../content-options';
 import video from "../../assets/videos/JIT-promo-vid-meme-thumbnail.mp4"
 
@@ -23,25 +24,27 @@ const About = () => {
                     paddingTop: '3vh'
                 }}>
                     <div className='about-text-container' >
-                        <div style={{
-                            width: '13px', // Width of the orange bar
-                            backgroundColor: 'orange',
+                        <img src={callsvg} style={{
                             marginTop: '0.8em',
                             marginRight: '2.5vw' // Space between the bar and the text
-                        }}></div>
+                        }}></img>
                         <div style={{
                             flex: 1, // Allows the text area to fill the remaining space
+                            justifyContent:'center',
+                            alignItems:'left',
+                            textAlign:'left',
+                            display:'flex',
+                            flexDirection:'column',
+                            maxWidth:'420px'
                         }}>
                             <span className='about-title'>{about.title}</span>
                             <br></br>
+                            <span className='about-content'>"{about.content}"</span>
                             <br></br>
-                            <span className='about-content'>{about.content_1}</span>
-                            <br></br>
-                            <br></br>
-                            <span className='about-content'>{about.content_2}</span>
-                            <br></br>
-                            <br></br>
-                            <span style={{ fontWeight: 'bold' }} className='about-content'>{about.content_3}</span>
+                            <div style ={{display:'flex'}}> 
+                            <span className='about-footer'>{about.footer} </span>
+                            <span className='about-footer2'>{about.footer2}</span>
+                            </div>
                         </div>
                     </div>
 

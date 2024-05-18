@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Roadmap.css";
-import frame4svg from "../../assets/svg/jit-website-layout-frames-objective-svg/jit-website-layout-frames-4.svg";
+import frame4svg from "../../assets/images/jit/JIT-website_DESKTOP-frames-slide4.png";
 import { Element } from 'react-scroll';
 import { roadmap } from '../../content-options';
 import bulletpoint from "../../assets/svg/jit-logos-objective-svg/bullet-point.svg";
+import bulletmap from "../../assets/images/jit/jit-slide4-element-white.png";
 const Latex = require('react-latex');
 
 const FRAME_4_WIDTH = 1920;
@@ -18,26 +19,34 @@ const Roadmap = () => {
       <div className="container-fluid g-0 ratio" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url(${frame4svg})`, minHeight: '811px' }}>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="roadmap-container" >
+
             <p className='roadmap-header'>{roadmap.title}</p>
+
+            <img src={bulletmap} alt="Bullet Map" style={{ width: '100%', height: 'auto', marginBottom: '20px' }} />
             <ul style={{ listStyleType: 'none', padding: '0px' }}>
-              {roadmap.content.map((item, index) => (
-                <li key={index} style={{
-                  display: 'flex',
-                  alignItems: 'flex-start', // Ensures bullet points align with the first line of text
-                  marginBottom: '10px' // Adds space between list items
-                }}>
-                  <img src={bulletpoint} alt="Bullet Point" style={{
-                    marginTop: '5px',
-                    width: '13px', // Adjust the size of the bullet image as necessary
-                    height: '13px', // Adjust the size of the bullet image as necessary
-                    marginRight: '10px' // Space between the bullet point and the text
-                  }} />
-                  <div style={{ fontFamily: 'Rubik", sans-serif', flex: 1, textAlign: 'left' }}>
-                    {item}
-                  </div>
-                </li>
+              {roadmap.headers.map((header, index) => (
+                <React.Fragment key={index}>
+                  <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '10px' }}>
+                    <img
+                      src={bulletpoint}
+                      alt="Bullet Point"
+                      style={{ marginTop: '5px', width: '13px', height: '13px', marginRight: '10px' }}
+                    />
+                    <div style={{ fontFamily: 'Rubik", sans-serif', flex: 1, textAlign: 'left', fontWeight: 'bold' }}>
+                      {header}
+                    </div>
+                  </li>
+                  <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '10px', marginLeft: '23px' }}>
+                    <div style={{ fontFamily: 'Rubik", sans-serif', flex: 1, textAlign: 'left' }}>
+                      {roadmap.content[index]}
+                    </div>
+                  </li>
+                </React.Fragment>
               ))}
+                          <br></br>
+            <span style={{marginLeft:'23px', color:'#ec8731', fontWeight:'bold', fontFamily: 'Rubik", sans-serif', flex: 1, justifyContent: 'middle', textAlign:'middle'}}>Stay tuned on X!</span>
             </ul>
+
           </div>
         </div>
       </div>

@@ -13,33 +13,53 @@ const social_links = {
 };
 
 const about = {
-    title: "$JIT",
-    content_1: "Tunnels the ultimate form of transportation in since Ancient Times, up to nowadays in New York City. We are JIT.",
-    content_2: "More Tunnelers are needed to construct the covert NYC tunnel project, a better network and infrastructure, facilitating exchange and communication. Rabbis are tunneling to Congress to pass the new bill on Cryptocurrency tax dexuctions before passover.",
-    content_3: "Support the tunnel by contributing shekels to $JIT today!"
+    title: "THE CALL",
+    content: "Hey there, fellow tunnelers! I'm here to rally the troops! Grab those shovels, dust off your mining helmets, and let's embark on the ultimate crypto excavation with Jews in Tunnels!",
+    footer: "Rabbi Shlomi, ",
+    footer2: "Chief Rabbi"
 };
 
 const buy = {
-    title: "BUY $JIT THE KOSHER WAY",
-    h1: "ESTABLISHING A WALLET",
-    content1: "Download Phantom or select a kosher SOL compatible wallet from the app store or Google Play, all provided free of charge as blessings. For thoes navigating from a desktop, procure the Google Chrome extension Phantom.",
-    h2: "ACQUIRING A SOL",
-    content2: "To journey into the realm of $JIT, it is imperative to posess a small amount of SOL within your wallet. Should your coffers lack SOL< you may procure it directly on Phanot, transfer from another wallet, or acquire it from an alternate exchange and send it withforth your wallet.",
-    h3: "NAVIGATING TO DEXLAB",
-    content3: "Connect with Dexlab Open your browser, preferably Google Chrome, and direct it to Dexlab as one might navigate towards a sacred text. Upon arrival, establish connection with your wallet. Swap for some $JIT using the token contract address provided above. When called upon by Phantom to provide a wallet signature, comply forth with pious devotion."
+    title: "HOW TO BUY",
+    headers: ["INSTALL PHANTOM WALLET",
+              "CREATE OR IMPORT A WALLET",
+              "ACCESS YOUR WALLET ADDRESS",
+              "SEND SOL TO YOUR WALLET",
+              "WAIT FOR CONFIRMATION",
+              "CHECK WALLET BALANCE",
+              "ACCESS RAYDIUM",
+              "CONNECT YOUR WALLET",
+              "JIT-SOL PAIR",
+              "SWAP",
+              "APPROVE TRANSACTION",
+              "WAIT CONFIRMATION",
+              "CHECK WALLET"
+    ],
+    content: ["Follow this link to download.",
+              "Create a new wallet or import an existing one.",
+              "Locate your Solana wallet address.",
+              "Double-check the address to avoid any mistakes.",
+              "Track progress of transaction using the transaction ID.",
+              "Once transaction is confirmed, the SOL balance will appear.",
+              "Follow this link to access.",
+              "Click the 'Connect Wallet' button.",
+              "Navigate to the 'Pools' tab and search function to find the JIT-SOL pool.",
+              "Click 'Swap' button. Enter the amount of SOL you want to swap for JIT.",
+              "Review transaction details. Approve.",
+              "Usually quick, but may vary depending on network congestion.",
+              "After transaction is confirmed, JIT will appear in your phantom wallet."
+    ]
 }
 
 const roadmap = {
     title: "ROADMAP",
-    content: ["SHAOLAM! LAUNCH MEMES",
-        "SHAGOYIM! DIG TUNNELS",
-        "ESTABLISH PARTNERSHIP WITH AIPAC",
-        "MOR MEMES, HASHUGUNNNAH!",
-        "OY VEY! SHUTTING DOWN THE COMPETITION",
-        "$JIT ON NYC BILLBORD",
-        "MOR MEMES",
-        "$JIT REPLACES THE SHEKEL",
-        "PROVIDE INTERNSHIPS FOR $JIT HOLDERS IN POLITICS, MEDIA, AND FINANCE"]
+    headers: ["PRESALE AND AIDRDOP",
+        "GAME + TOKEN UTILITY",
+        "NFT SERIES"],
+    content: ["JIT will anounce its presale fair launch and airdrop. Presale funds wil be used to seed the liquidity pool, for the creators and for the JIT community.",
+              "JIT will announce the launch of its on-chain crypto game adding utility to the coin and a unique experience for the JIT community to make profits.",
+              "JIT will announce the launch of its NFTS. These NFTS also have high utility which is derived from JIT's on-chain crypto game."
+    ]
 }
 
 export {

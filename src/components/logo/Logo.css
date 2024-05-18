@@ -1,0 +1,29 @@
+.critical-background {
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 294px;
+    background-size: auto 100%; /* Maintain original height, scale width on desktop */
+}
+
+.jit-logo {
+    width: 550px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    padding-left: 10vw;
+  }
+  
+.critical-icons {
+    display:flex;
+    justify-content:'center';
+    align-items:'center';
+}
+
+@media (max-width: 576px) {
+    .critical-icons {
+        display:flex;
+        flex-direction: column;
+        justify-content:'center';
+        align-items:'center';
+    }
+}

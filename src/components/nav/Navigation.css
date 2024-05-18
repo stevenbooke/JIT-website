@@ -18,18 +18,38 @@
     font-style: normal;
     font-size: 1.25rem;
     line-height: 2;
+    z-index: 9;
 }
 
 .navbar-background {
+    display: flex;                    /* Flexbox layout */
+    justify-content: center;          /* Center items horizontally */
+    align-items: center;              /* Align items vertically in the center */
+    width: 100%;                      /* Full width */
+    background-color: black;          /* Background color */
+    height: 50px;                     /* Fixed height */
+    justify-content: center;
+    align-items: center;
+    position:fixed;
     z-index: 10;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    min-height: 110px;
-    background-size: cover; /* Ensures the background covers the entire element */
-    background-repeat: no-repeat; /* Prevents the background from repeating */
-}
+  }
+  
+  .nav-text-link {
+    margin: 0 25px;                   /* Margin on both sides to create 30px space between links */
+    text-decoration: none;            /* Removes underline from links */
+    color: white;                     /* Sets text color to white */
+  }
+  
+  /* This ensures the content is visually centered without unnecessary margin at the ends */
+  .navbar-background > :first-child {
+    margin-left: 0;                   /* Removes margin on the left side of the first link */
+  }
+  
+  .navbar-background > :last-child {
+    margin-right: 0;                  /* Removes margin on the right side of the last link */
+  }
+  
+  
 
 /* Adjust for mobile screens */
 @media (max-width: 768px) {
@@ -46,13 +66,6 @@
 
 .active {
     color: var(--text-color-3);
-}
-
-.jit-logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: auto;
-    height: 70px;
 }
 
 @media screen and (max-width: 576px) {

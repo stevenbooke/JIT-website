@@ -7,16 +7,18 @@ import About from './components/about/About';
 import Roadmap from './components/roadmap/Roadmap';
 import Buy from './components/buy/Buy';
 import Footer from './components/footer/Footer';
+import Logo from './components/logo/Logo';
 import SvgJitWebsiteLayoutFrames1 from './components/svg/jit-website-layout-frames-objective-svg/JitWebsiteLayoutFrames1';
 
 const App = () => {
   return (
     <div className='d-flex flex-column w-100'>
       <Navigation />
+      <Logo/>
       <CriticalText />
       <About />
-      <Roadmap />
       <Buy />
+      <Roadmap />
       <Footer />
     </div>
   );
